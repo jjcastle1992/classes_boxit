@@ -28,10 +28,19 @@ class Box {
 
     }
 
-
     // int getLength(); // Return box's length
+    int getLength () {
+        return l;
+    }
     // int getBreadth (); // Return box's breadth
+    int getBreadth () {
+        return b;
+    }
+
     // int getHeight ();  //Return box's height
+    int getHeight () {
+        return h;
+    }
     // long long CalculateVolume(); // Return the volume of the box
 
     //Overload operator < as specified
