@@ -47,6 +47,9 @@ class Box {
     }
 
     //Overload operator < as specified
+    friend bool operator < (Box const &a, Box const &b) {
+
+    }
     //bool operator<(Box& b)
 
     //Overload operator << as specified
