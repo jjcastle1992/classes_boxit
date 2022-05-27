@@ -42,6 +42,9 @@ class Box {
         return h;
     }
     // long long CalculateVolume(); // Return the volume of the box
+    long long CalculateVolume () {
+        return l * b * h;
+    }
 
     //Overload operator < as specified
     //bool operator<(Box& b)
